@@ -75,3 +75,6 @@
 (require 'jade-mode)    
 (add-to-list 'auto-mode-alist '("\\.styl$" . sws-mode))
 (add-to-list 'auto-mode-alist '("\\.jade$" . jade-mode))
+
+;; User variables
+(global-set-key "\C-c\C-w" 'whitespace-cleanup-all)
